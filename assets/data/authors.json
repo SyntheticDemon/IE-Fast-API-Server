@@ -3,30 +3,35 @@
     "username": "admin1",
     "name": "John Doe",
     "penName": "J.D.",
-    "born": "1975-06-23"
+    "born": "1975-06-23",
+    "nationality": "American"
   },
   {
     "username": "admin1",
     "name": "Jane Smith",
     "penName": "J.Smith",
-    "born": "1980-09-15"
+    "born": "1980-09-15",
+    "nationality": "British"
   },
   {
     "username": "admin1",
     "name": "Emily Johnson",
     "penName": "E.J.",
-    "born": "1990-02-05"
+    "born": "1990-02-05",
+    "nationality": "Canadian"
   },
   {
     "username": "admin2",
     "name": "Robert Brown",
     "penName": "R.Brown",
-    "born": "1968-11-30"
+    "born": "1968-11-30",
+    "nationality": "Australian"
   },
   {
     "username": "admin2",
     "name": "Sophia Williams",
     "penName": "S.W.",
-    "born": "1985-07-08"
+    "born": "1985-07-08",
+    "nationality": "French"
   }
 ]
