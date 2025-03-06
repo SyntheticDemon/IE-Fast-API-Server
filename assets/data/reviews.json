@@ -1,0 +1,122 @@
+[
+  {
+    "username": "user1",
+    "title": "The Shadow Hour",
+    "rate": 5,
+    "comment": "A thrilling ride from start to finish! The suspense kept me on edge."
+  },
+  {
+    "username": "user2",
+    "title": "Whispers in the Dark",
+    "rate": 4,
+    "comment": "Creepy and engaging, but I wish the ending was stronger."
+  },
+  {
+    "username": "user3",
+    "title": "The Lost Chronicles",
+    "rate": 5,
+    "comment": "An epic fantasy adventure with rich world-building. Loved it!"
+  },
+  {
+    "username": "user1",
+    "title": "Echoes of Tomorrow",
+    "rate": 4,
+    "comment": "A fascinating take on time travel. The paradoxes were mind-blowing."
+  },
+  {
+    "username": "user2",
+    "title": "Beneath the Surface",
+    "rate": 2,
+    "comment": "Started strong, but the mystery became predictable halfway through."
+  },
+  {
+    "username": "user3",
+    "title": "Winds of Change",
+    "rate": 5,
+    "comment": "A beautiful and inspiring story about self-discovery. Highly recommended!"
+  },
+  {
+    "username": "user1",
+    "title": "The Silent Witness",
+    "rate": 4,
+    "comment": "A gripping true crime story. The details were chilling!"
+  },
+  {
+    "username": "user2",
+    "title": "Secrets of the Past",
+    "rate": 4,
+    "comment": "The twists in this mystery were fantastic. Kept me guessing!"
+  },
+  {
+    "username": "user3",
+    "title": "The Starlit Path",
+    "rate": 5,
+    "comment": "A magical journey that felt like a dream. So imaginative!"
+  },
+  {
+    "username": "user1",
+    "title": "Shattered Reflections",
+    "rate": 4,
+    "comment": "A psychological thriller that kept me second-guessing everything."
+  },
+  {
+    "username": "user2",
+    "title": "Nightfall",
+    "rate": 1,
+    "comment": "It had some scary moments, but I expected more from the horror aspect."
+  },
+  {
+    "username": "user3",
+    "title": "Beyond the Horizon",
+    "rate": 5,
+    "comment": "A breathtaking sci-fi adventure! The alien world was so well described."
+  },
+  {
+    "username": "user1",
+    "title": "The Last Heist",
+    "rate": 4,
+    "comment": "A fast-paced crime thriller. The heist sequence was intense!"
+  },
+  {
+    "username": "user2",
+    "title": "Whispering Pines",
+    "rate": 3,
+    "comment": "The atmosphere was spooky, but I wanted more character development."
+  },
+  {
+    "username": "user3",
+    "title": "Timeless Echoes",
+    "rate": 5,
+    "comment": "A deeply emotional and beautifully written book. It stayed with me."
+  },
+  {
+    "username": "user1",
+    "title": "The Shadow Hour",
+    "rate": 4,
+    "comment": "Great plot twists, but some parts felt a bit slow."
+  },
+  {
+    "username": "user2",
+    "title": "Echoes of Tomorrow",
+    "rate": 5,
+    "comment": "Loved the time-travel elements! The story was really creative."
+  },
+  {
+    "username": "user3",
+    "title": "Shattered Reflections",
+    "rate": 4,
+    "comment": "An unsettling but engaging thriller. I couldn’t put it down."
+  },
+  {
+    "username": "user1",
+    "title": "Beneath the Surface",
+    "rate": 5,
+    "comment": "Incredible underwater setting with a gripping mystery!"
+  },
+  {
+    "username": "user2",
+    "title": "The Starlit Path",
+    "rate": 5,
+    "comment": "A beautifully crafted fantasy! Felt like stepping into a dream."
+  }
+]
