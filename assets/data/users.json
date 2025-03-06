@@ -3,6 +3,7 @@
     "role": "customer",
     "username": "user1",
     "password": "user1234",
+    "email": "user1.mail@mail.com",
     "address": {
       "country": "Iran",
       "city": "Tabriz"
@@ -12,6 +13,7 @@
     "role": "customer",
     "username": "user2",
     "password": "user234",
+    "email": "user2.mail@mail.com",
     "address": {
       "country": "Canada",
       "city": "Toronto"
@@ -21,6 +23,7 @@
     "role": "customer",
     "username": "user3",
     "password": "user34",
+    "email": "user3.mail@mail.com",
     "address": {
       "country": "Canada",
       "city": "Toronto"
@@ -30,6 +33,7 @@
     "role": "admin",
     "username": "admin1",
     "password": "admin1",
+    "email": "admin1.mail@mail.com",
     "address": {
       "country": "Iran",
       "city": "Tehran"
@@ -39,6 +43,7 @@
     "role": "admin",
     "username": "admin2",
     "password": "admin2",
+    "email": "admin2.mail@mail.com",
     "address": {
       "country": "Iran",
       "city": "Shiraz"
