@@ -6,22 +6,22 @@ from fastapi.responses import JSONResponse, HTMLResponse
 
 
 DATA_DIR = Path("./assets/data/")
-JSON_FILES = ["users.json", "authors.json", "books.json", "reviews.json"]
+ENDPOINTS = ["users", "authors", "books", "reviews"]
 
 app = FastAPI()
 
 
-def read_json(file_name: str) -> dict:
-    file_path = DATA_DIR / file_name
+def read_json(endpoint: str) -> dict:
+    file_path = DATA_DIR / f"{endpoint}.json"
     if file_path.exists():
         with open(file_path, "r", encoding="utf-8") as f:
             return json.load(f)
-    return {"error": "File not found"}
+    return {"error": "file not found"}
 
 
 @app.get("/", response_class=HTMLResponse)
 def index():
-    links = "".join([f'<li><a href="/{file}">{file}</a></li>' for file in JSON_FILES])
+    links = "".join([f'<li><a href="/{endpoint}">{endpoint.title()}</a></li>\n' for endpoint in ENDPOINTS])
     html_content = f"""
     <!DOCTYPE html>
     <html lang="en">
@@ -39,13 +39,15 @@ def index():
     return HTMLResponse(content=html_content)
 
 
-@app.get("/{file_name}")
-def get_json(file_name: str):
-    if file_name not in JSON_FILES:
+@app.get("/{endpoint}")
+def get_json(endpoint: str):
+    endpoint = endpoint.lower()
+    if endpoint not in ENDPOINTS:
         return JSONResponse(
-            content={"error": "Invalid file requested"}, status_code=404
+            status_code=404,
+            content={"error": "invalid endpoint requested"}
         )
-    data = read_json(file_name)
+    data = read_json(endpoint)
     return JSONResponse(content=data)
 
 
